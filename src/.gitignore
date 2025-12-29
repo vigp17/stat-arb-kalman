@@ -1,0 +1,19 @@
+# .gitignore
+# Ignore Python build files
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environment
+venv/
+env/
+.env
+
+# Ignore large Data files (Optional: keep if small, but good practice to ignore)
+data/
+
+# Ignore Mac System files
+.DS_Store
+
+# Ignore IDE settings
+.vscode/
+.idea/
